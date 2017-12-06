@@ -1,10 +1,19 @@
 body{
         margin: 0px;
         background-color: #fafafa;
+        height: 100%;
 }
 
 .dnz-container{
         min-width: 1024px;
         width:  1024px;
         margin: 0 auto;
+}
+
+.wrapper{
+        content: "";
+        display: table;
+        clear: both;
+        padding-top: 10px;
+        
 }
